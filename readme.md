@@ -1,6 +1,6 @@
 ## Training code 
 ```bash
- ~ python finetune_rstar_qdora_light.py \
+ python finetune_rstar_qdora_light.py \
     --model Qwen/Qwen2.5-Coder-7B-Instruct \
     --data-root microsoft/rStar-Coder \
     --sft-subsets synthetic_sft,seed_sft \
